@@ -5,7 +5,7 @@ var homeController = function (server){
 	server.route('/')
 
 		.get(function(req, res){
-			res.send('Hola maginkgo');
+			res.send('Hola maginkgo, github complete');
 		});
 };
 
